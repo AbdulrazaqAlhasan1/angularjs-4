@@ -41,6 +41,7 @@ app.config(function($routeProvider) {
         $scope.rating = function (input) {
             return `${Math.round(((input / starsTotal) * 100) / 10) * 10}%`;
         }
+        
     })
         
 
